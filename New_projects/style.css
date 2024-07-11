@@ -1,0 +1,289 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+.shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: bold;
+  font-style: normal;
+  background-image: url(/Images/Screenshot\ 2024-06-18\ 175736.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 64px;
+  height: 500px;
+}
+
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.header {
+  margin-left: 100px;
+}
+
+.noteDiv {
+  border: 5px solid #fca103;
+  background-color: #fcba03;
+  border-radius: 5px;
+  width: 900px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 24px;
+  margin: 20px auto;
+}
+
+.noteDiv:hover {
+  border: 5px solid #fcba03;
+  background-color: #fca103;
+  border-radius: 5px;
+  width: 900px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 24px;
+  margin: 20px auto;
+}
+
+body {
+  background-image: url(https://i.pinimg.com/originals/7d/69/e3/7d69e357a9267fc119efde2caf423862.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.desc {
+  width: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 3px solid #003049;
+  background-color: #669bbc;
+  padding: 20px;
+  margin-left: 100px;
+  float: left;
+  font-size: 20px;
+}
+
+.desc:hover {
+  width: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 3px solid #669bbc;
+  background-color: #219ebc;
+  padding: 20px;
+  margin-left: 100px;
+  float: left;
+  font-size: 20px;
+}
+
+.features {
+  width: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 3px solid #d90429;
+  background-color: #e63946;
+  padding: 20px;
+  margin-left: 100px;
+  float: left;
+  font-size: 20px;
+}
+
+.features:hover {
+  width: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 3px solid #e63946;
+  background-color: #d90429;
+  padding: 20px;
+  margin-left: 100px;
+  float: left;
+  font-size: 20px;
+}
+
+.about {
+  width: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 3px solid #d5bdaf;
+  background-color: #f5ebe0;
+  padding: 20px;
+  margin-left: 100px;
+  float: left;
+  font-size: 20px;
+}
+
+.about:hover {
+  width: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 3px solid #f5ebe0;
+  background-color: #d5bdaf;
+  padding: 20px;
+  margin-left: 100px;
+  float: left;
+  font-size: 20px;
+}
+
+.funFacts {
+  width: 900px;
+  max-width: 900px;
+  border-radius: 10px;
+  border: 3px solid #495057;
+  background-color: #dee2e6;
+  padding: 20px;
+  margin-left: 500px;
+  margin-top: 100px;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+}
+
+.funFacts:hover {
+  width: 900px;
+  max-width: 900px;
+  border-radius: 10px;
+  border: 3px solid #dee2e6;
+  background-color: #495057;
+  padding: 20px;
+  margin-left: 500px;
+  margin-top: 100px;
+  float: left;
+  text-align: center;
+  font-size: 20px;
+}
+
+.foot {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFel0o007JA9YaH3O2mIQK1uUpUlRK_6YFgg&s);
+  height: 200px;
+  margin-top: 2250px;
+}
